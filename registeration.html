@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <?php
+        if(isset($_POST['sub_btn']))
+        {
+            
+        }
+        ?>
+    </div>
+    <div>
+        <form method="POST" action="registeration.php">
+            <div class="container">
+                
+                  <h1>  registeration</h1>
+                  <label for="username">Enter Name</label>
+                    <input type="text" name="username" required>
+                    <br>
+                    <label for="password">Enter Password</label>
+                    <input type="password" name="password" required>
+                    <br>
+                    <label for="phone.no">Enter Phone.No</label>
+                    <input type="number" name="phone" required>
+                    <input type="submit" name="sub_btn">
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>

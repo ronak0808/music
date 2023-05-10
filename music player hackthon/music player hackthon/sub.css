@@ -1,0 +1,123 @@
+body {
+	background-color: #000;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background-color: #000;
+	padding: 20px;
+}
+
+.navbar{
+  display: flex;
+  align-items: right;
+
+}
+nav{
+  flex: 1;
+  align-items: right;
+  margin-top: 40px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  display:inline-block;
+
+
+}
+
+nav ul li {
+	display: inline-block;
+
+  margin-right: 40px;
+  align-items:center;
+
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 10px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+form {
+	background-color:rgb(239, 67, 67);
+	padding: 30px;
+	border-radius: 10px;
+}
+
+/*footer*/
+
+.footer{
+  background:black;
+  color: #8a8a8a;;
+  padding: 30px 0 20px;
+  margin-top: 60px;
+}
+
+.footer h4{
+  color:#fff;
+  margin-bottom: 20px;
+}
+.footer-col1, .footer-col2, .footer-col3,.footer-col4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col1{
+  flex-basis: 30%;
+}
+.footer-col2{
+  flex:1; 
+  text-align: center;
+}
+.footer-col2 img{
+ margin-bottom: 20px ;
+}
+
+.footer-col3, .footer-col4{
+  flex-basis: 12%;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.Copyright{
+  text-align: center;
+}
+
+.footer hr{
+  background: #b5b5b5;
+  border: none;
+  height: 1px;
+  margin: 20px 0;
+}
+
+h1{
+  text-align: center;
+}
+
+.ic{
+  padding-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+main h1{
+  
+  color: #fff;
+
+}

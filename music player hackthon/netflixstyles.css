@@ -1,0 +1,297 @@
+:root {
+	--primary-color: #e50914;
+}
+
+label
+{
+    color:white;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	--webkit-font-smoothing: antialiased;
+	background: #000;
+	color: #999;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+h1{
+	font-size: 4rem;
+}
+
+h1, h2, h3, h4 {
+	color: #fff;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	margin: 0.5rem 0;
+}
+
+img {
+	width: 100%;
+}
+
+.showcase {
+	width: 100%;
+	height: 93vh;
+	position: left;
+	background-image: url("https://images.pexels.com/photos/3391930/pexels-photo-3391930.jpeg?auto=compress&cs=tinysrgb&w=800");
+	text-indent: 5px;
+}
+
+.showcase-top {
+	position: absolute;
+	height: 90px;
+	padding-left: 260px;
+}
+
+.showcase-top img {
+	width: 170px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+	border-bottom: 8px solid #222;
+	padding-top:40px ;
+}
+
+nav {
+	float: right;
+	padding-top: 30px;
+	padding-right: 50px;
+}
+
+/* Button */
+.btn {
+
+      display: inline-block;
+      background:red;
+      color:white;
+      padding: 8px 30px;
+      margin:30px 0;
+      border-radius: 30px;
+      transition: background 0.5s;
+}
+.btn:hover
+{
+    background-color: brown;
+}
+input:hover
+{
+    background-color: brown;
+}
+
+
+
+.search-box {
+	position: center;
+	transform: translate(-50,-50);
+	height: 60px;
+
+}
+
+input {
+         display: inline-block;
+         background: red;
+         color: white;
+         padding: 8px 30px;
+         margin: 30px 0;
+         border-radius: 30px;
+         transition: background 0.5s;
+
+     }
+
+
+
+.enjoy-tv {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	padding-left: 280px;
+	margin-bottom: 0;
+	background: 0 0;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;
+}
+
+.enjoy-tv img {
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.Watch-offline {
+	font-size: 30px;
+	text-align: justify;
+	position: relative;
+	padding: 150px 10%;
+	margin-bottom: 0;
+	margin-left: 280px;
+	background: 0 0;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;
+}
+
+.Watch-offline img {
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.watch-everywhere {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	padding: 150px 10%;
+	padding-left: 280px;
+	margin-bottom: 0;
+	background: 0 0;
+	color: #fff;
+	display: block;
+	border-bottom: 8px solid #222;
+}
+
+.watch-everywhere img {
+	width: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(+20%, -50%);
+	display: block;
+}
+
+.ask-question {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.ask-question h1 {
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+
+.ask-question button {
+	display: center;
+	text-align: left;
+	background-color: #303030;
+	color: white;
+	height: 65px;
+	width: 700px;
+	font-size: 0.9rem;
+	padding: 0.3rem 0.5rem;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+.footer{
+	background:black;
+	color: #8a8a8a;;
+	padding: 30px 0 20px;
+	margin-top: 60px;
+  }
+  
+  .footer h4{
+	color:#fff;
+	margin-bottom: 20px;
+  }
+  .footer-col1, .footer-col2, .footer-col3,.footer-col4{
+	min-width: 250px;
+	margin-bottom: 20px;
+  }
+  
+  .footer-col1{
+	flex-basis: 30%;
+  }
+  .footer-col2{
+	flex:1; 
+	text-align: center;
+  }
+  .footer-col2 img{
+   margin-bottom: 20px ;
+  }
+  
+  .footer-col3, .footer-col4{
+	flex-basis: 12%;
+	text-align: center;
+  }
+  
+  ul{
+	list-style-type: none;
+  }
+  
+  .Copyright{
+	text-align: center;
+  }
+  
+  .footer hr{
+	background: #b5b5b5;
+	border: none;
+	height: 1px;
+	margin: 20px 0;
+  }
+  
+  /*all products*/
+  
+  .row-2{
+	justify-content: space-between;
+	margin: 100px auto 50px;
+  }
+  
+  select{
+	border:1px solid #ff523b;
+	padding: 5px;
+  }
+  
+  select:focus{
+	outline:none;
+  }
+  
+  .pg-btn{
+  
+	margin:0 auto 80px;
+  }
+  
+  .pg-btn span{
+  
+	display:inline-block;
+	border:1px solid #ff523b;
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor:pointer;
+  
+  }
+  
+  .pg-btn span:hover{
+	background: #ff523b;
+	color: #fff;
+  }
+  
+  .row-2 p{
+	margin-left: 700px;
+  }

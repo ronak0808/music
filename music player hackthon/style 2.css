@@ -1,0 +1,299 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color:rgb(255, 255, 255,50%);
+  background-repeat:no-repeat;
+  background-size:1520px;  
+  background-image: url(https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?cs=srgb&dl=pexels-daniel-reche-3721941.jpg&fm=jpg&_gl=1*4dsef1*_ga*MjEyNDY4MTExOC4xNjgyNTc4NjE0*_ga_8JE65Q40S6*MTY4MjU4MzQ1OC4yLjEuMTY4MjU4MzU2OC4wLjAuMA);
+}
+
+
+nav{
+  flex:1;
+  text-align:right;
+
+  }
+  nav ul{
+    display:inline-block;
+    list-style-type: none;  
+}
+
+nav ul li{
+  display:inline-block;
+  margin-right: 20px;
+
+}
+
+a{
+  text-decoration: none;
+  color:#555;
+}
+
+p{
+  color:#555;
+}
+.container{
+
+  max-width:1300px;
+  margin:auto;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+.row{
+  display: flex;
+  align-items:center ;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2{
+flex-basis: 50%;
+min-width:300px;
+
+}
+
+.btn{
+  display: inline-block;
+  background:#ff523b;
+  color:white;
+  padding: 8px 30px;
+  margin:30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+
+.btn:hover{
+  background: rgb(165, 42, 42);
+}
+
+
+
+  
+
+
+.header .row{
+  margin-top: 70px;
+}
+
+.categories{
+ margin:70px 0px;
+
+}
+
+
+.small-container{
+
+  max-width:1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col4{
+  flex-basis:25%;
+  min-width: 200px;
+  padding:10px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+
+
+}
+.col4 img{
+ width: 100;
+ align-items: center;
+}
+
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+h4{
+  color: #555;
+}
+.col4:hover{
+  transform:translateY(-5px);
+}
+
+.form-container{
+  background-color: #fff;
+  width: 300px;
+  height:400px;
+  position: relative;
+  top:-130px;
+  left:-300px;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  border-radius:20px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.form-container span{
+  font-weight: bold;
+  padding:0 10px;
+  color:#555
+}
+.form-container form{
+  max-width: 300px;
+  padding: 0 20px;
+}
+.form-container input{
+  width:100%;
+  height:30px; 
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+form .btn{
+  width: 100%;
+  border:none;
+  cursor:pointer;
+  margin:10px 0;
+}
+/*---offer---*/
+
+
+/*footer*/
+
+.footer{
+  background:black;
+  color: #8a8a8a;;
+  padding: 30px 0 20px;
+  margin-top: 60px;
+}
+
+.footer h4{
+  color:#fff;
+  margin-bottom: 20px;
+}
+.footer-col1, .footer-col2, .footer-col3,.footer-col4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col1{
+  flex-basis: 30%;
+}
+.footer-col2{
+  flex:1; 
+  text-align: center;
+}
+.footer-col2 img{
+ margin-bottom: 20px ;
+}
+
+.footer-col3, .footer-col4{
+  flex-basis: 12%;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.Copyright{
+  text-align: center;
+}
+
+.footer hr{
+  background: #b5b5b5;
+  border: none;
+  height: 1px;
+  margin: 20px 0;
+}
+
+
+
+.row-2{
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
+select{
+  border:1px solid #ff523b;
+  padding: 5px;
+}
+
+select:focus{
+  outline:none;
+}
+
+.pg-btn{
+
+  margin:0 auto 80px;
+}
+
+.pg-btn span{
+
+  display:inline-block;
+  border:1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor:pointer;
+
+}
+
+.pg-btn span:hover{
+  background: #ff523b;
+  color: #fff;
+}
+
+.row-2 p{
+  margin-left: 700px;
+}
+
+.gmail .sign_in_option img
+{
+  width:25px;
+  position: relative;
+  float:left;
+  top:6px;
+}
+.gmail
+{width:260px;
+  height:38px;
+  position:relative;
+  top:30px;
+  left:23px;
+  border-radius: 40px;
+  background-color: #ff523b;
+  text-align: center;
+}
+
+.sign_in_option img
+{
+  width:30px;
+  position:absolute;
+  
+  left:15px;
+  
+}
+.sign_in_option pre
+{
+  position:relative;
+  top:8px;
+  left:-60px;
+  font-size:14px;
+  font-family: 'Poppins', sans-serif;
+}
+.gmail:hover
+{
+background-color: rgb(165, 42, 42);
+transition-duration: 1s;
+}
+
